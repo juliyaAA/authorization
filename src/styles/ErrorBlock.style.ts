@@ -9,6 +9,10 @@ const ErrorBlock = styled.div`
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 15px;
+    p {
+        margin-top: 0;
+    }
 `;
 
 export default ErrorBlock;
